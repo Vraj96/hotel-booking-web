@@ -10,7 +10,7 @@ import Layout from './Pages/HotelOwner/Layout';
 import Dashboard from './Pages/HotelOwner/Dashboard';
 import AddRoom from './Pages/HotelOwner/AddRoom';
 import ListRoom from './Pages/HotelOwner/ListRoom';
-import NavBar from './Components/HotelOwner/NavBar';
+import NavBar from './Components/NavBar';
 
 function App() {
 
