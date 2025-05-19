@@ -9,7 +9,7 @@ const BookIcon = ()=>(
 </svg>
 )
 
-const Navbar = () => {
+const NavBar = () => {
     const navLinks = [
         { name: 'Home', path: '/' },
         { name: 'Hotels', path: '/rooms' },
@@ -119,4 +119,4 @@ const Navbar = () => {
     );
 }
 
-export default Navbar
+export default NavBar

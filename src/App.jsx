@@ -11,6 +11,7 @@ import Layout from './Pages/HotelOwner/Layout';
 import Dashboard from './Pages/HotelOwner/Dashboard';
 import AddRoom from './Pages/HotelOwner/AddRoom';
 import ListRoom from './Pages/HotelOwner/ListRoom';
+import NavBar from './Components/HotelOwner/NavBar';
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
 
   return (
     <div>
-      { !isOwnerPath && <Navbar />}
+      { !isOwnerPath && <NavBar />}
       { false && <HotelReg />} 
       <div className='min-h-[70vh]'>
         <Routes>
